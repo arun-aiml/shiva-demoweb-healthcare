@@ -3,3 +3,4 @@ COPY . /usr/local/apache2/htdocs/
 MAINTAINER name shiva
 LABEL this is shiva's healthcare
 EXPOSE 80
+WORKDIR /myapp
